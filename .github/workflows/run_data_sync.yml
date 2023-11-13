@@ -3,7 +3,7 @@ name: Run Data Sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 0 1 * *"
   push:
     branches:
       - master
@@ -21,7 +21,7 @@ on:
 
 env:
   # please change to your own config.
-  RUN_TYPE: nike
+  RUN_TYPE: strava
   ATHLETE: Mengke Zhang
   TITLE: Mengke Running
   MIN_GRID_DISTANCE: 21 # change min distance here
