@@ -1,0 +1,119 @@
+{
+    "id": "3cfc9f82dbf325e50d2deea709d74d50a8d7e0206ac5a7ffa088f9fa94b84932",
+    "type": "swimming",
+    "app_id": "com.polar1.polar-prod",
+    "start_epoch_ms": 1669854530272,
+    "end_epoch_ms": 1669855911272,
+    "last_modified": 1669855932358,
+    "active_duration_ms": 1381000,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "heart_rate",
+            "summary": "mean",
+            "source": "com.polar1.polar-prod.Polar_BEAT.25",
+            "app_id": "com.polar1.polar-prod",
+            "value": 78
+        }
+    ],
+    "sources": [
+        "com.polar1.polar-prod.Polar_BEAT.25"
+    ],
+    "tags": {},
+    "change_tokens": [
+        "c140454aa0981de040a7bf0113053c8bc1eab0077690775e801818249e5aa562:1669855932358"
+    ],
+    "metric_types": [
+        "heart_rate"
+    ],
+    "metrics": [
+        {
+            "type": "heart_rate",
+            "unit": "BPM",
+            "source": "com.polar1.polar-prod.Polar_BEAT.25",
+            "appId": "com.polar1.polar-prod",
+            "values": [
+                {
+                    "start_epoch_ms": 1669854531272,
+                    "end_epoch_ms": 1669854532272,
+                    "value": 81
+                },
+                {
+                    "start_epoch_ms": 1669854532272,
+                    "end_epoch_ms": 1669854533272,
+                    "value": 82
+                },
+                {
+                    "start_epoch_ms": 1669854533272,
+                    "end_epoch_ms": 1669854534272,
+                    "value": 82
+                },
+                {
+                    "start_epoch_ms": 1669854534272,
+                    "end_epoch_ms": 1669854535272,
+                    "value": 81
+                },
+                {
+                    "start_epoch_ms": 1669854535272,
+                    "end_epoch_ms": 1669854536272,
+                    "value": 81
+                },
+                {
+                    "start_epoch_ms": 1669854536272,
+                    "end_epoch_ms": 1669854537272,
+                    "value": 80
+                },
+                {
+                    "start_epoch_ms": 1669854537272,
+                    "end_epoch_ms": 1669854538272,
+                    "value": 79
+                },
+                {
+                    "start_epoch_ms": 1669854538272,
+                    "end_epoch_ms": 1669854539272,
+                    "value": 78
+                },
+                {
+                    "start_epoch_ms": 1669854539272,
+                    "end_epoch_ms": 1669854540272,
+                    "value": 76
+                },
+                {
+                    "start_epoch_ms": 1669854540272,
+                    "end_epoch_ms": 1669854541272,
+                    "value": 75
+                },
+                {
+                    "start_epoch_ms": 1669854541272,
+                    "end_epoch_ms": 1669854542272,
+                    "value": 75
+                },
+                {
+                    "start_epoch_ms": 1669854542272,
+                    "end_epoch_ms": 1669854543272,
+                    "value": 74
+                },
+                {
+                    "start_epoch_ms": 1669854543272,
+                    "end_epoch_ms": 1669854544272,
+                    "value": 74
+                },
+                {
+                    "start_epoch_ms": 1669854544272,
+                    "end_epoch_ms": 1669854545272,
+                    "value": 74
+                }
+            ]
+        }
+    ],
+    "moments": [
+        {
+            "key": "lap",
+            "value": "1",
+            "timestamp": 1669855910272,
+            "app_id": "com.polar1.polar-prod",
+            "source": "com.polar1.polar-prod.Polar_BEAT.25"
+        }
+    ]
+}
