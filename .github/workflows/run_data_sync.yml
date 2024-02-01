@@ -21,7 +21,7 @@ on:
 
 env:
   # please change to your own config.
-  RUN_TYPE: nike
+  RUN_TYPE: strava
   ATHLETE: Mengke Zhang
   TITLE: Mengke Running
   MIN_GRID_DISTANCE: 21 # change min distance here
